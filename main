@@ -1,0 +1,5 @@
+jQuery(document).ready(function() {
+    jQuery('.add_to_cart_button').text(function(i, oldText) {
+        return oldText === 'Choix des options' ? 'Ajouter au panier' : oldText;
+    });
+});
